@@ -10,7 +10,9 @@ public class Article {
     @Column(name = "id", nullable = false)
     private int id;
     private String name;
+    private String alias;
     private String category;
+    private String short_description;
 
     public Article() {
     }
